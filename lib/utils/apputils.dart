@@ -90,4 +90,7 @@ class AlertHander {
 typedef void Handler(AlertHander action);
 
 
-String? bearerToken = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3ODBkZGZkMDFjZDdiZmQwNzhhNzk1NDI4MDIxZmYxYSIsIm5iZiI6MTczMDAxNjgyOS4xNjM2NTgsInN1YiI6IjVmNzRiOTIwMTU2Y2M3MDAzODQ1YTM2MSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.eubHM_ax6ke2nK3_ducCq-16LIHmi8DbYpR8WRmAp2o";
+String bearerToken = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3ODBkZGZkMDFjZDdiZmQwNzhhNzk1NDI4MDIxZmYxYSIsIm5iZiI6MTczMDAxNjgyOS4xNjM2NTgsInN1YiI6IjVmNzRiOTIwMTU2Y2M3MDAzODQ1YTM2MSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.eubHM_ax6ke2nK3_ducCq-16LIHmi8DbYpR8WRmAp2o";
+String apiKey = "780ddfd01cd7bfd078a795428021ff1a";
+String imagePath = 'https://image.tmdb.org/t/p/w300/';
+String baseIconPath = "assets/icon/";

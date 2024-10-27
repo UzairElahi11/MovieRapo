@@ -39,6 +39,7 @@ dependencies:
   flutter_svg:
   lottie:
   get:
+  shimmer:
 
 dev_dependencies:
   flutter_test:
@@ -66,6 +67,7 @@ flutter:
   assets:
     - assets/
     - assets/animation/
+    - assets/icon/
 
 
 

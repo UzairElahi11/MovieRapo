@@ -327,5 +327,12 @@ class ServerManager {
     getApiCalling(
         UrlConstants.fetchRatedMovies, _defaultHeader(), json, completion);
   }
+
+    static void fetchGenere(ResponseCompletion completion) {
+    Map<String, dynamic> json = {};
+    getApiCalling(
+        UrlConstants.generes, _defaultHeader(), json, completion);
+  }
+  
  
 }
