@@ -333,6 +333,12 @@ class ServerManager {
     getApiCalling(
         UrlConstants.generes, _defaultHeader(), json, completion);
   }
+
+   static void fetchMovieDetail(String id, ResponseCompletion completion) {
+    Map<String, dynamic> json = {};
+    getApiCalling(
+        UrlConstants.fetchMovieDetail.replaceFirst("id", id), _defaultHeader(), json, completion);
+  }
   
  
 }

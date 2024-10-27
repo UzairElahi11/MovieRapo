@@ -3,6 +3,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:intl/intl.dart';
 import 'package:lottie/lottie.dart';
 import 'package:testmovie/utils/Dynamic_size.dart';
 
@@ -79,6 +80,10 @@ class AppUtil {
           );
         });
   }
+
+  static String formatDate(DateTime date) {
+  return DateFormat('MMMM d, y').format(date);
+}
 
 }
 class AlertHander {

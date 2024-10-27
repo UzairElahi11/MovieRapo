@@ -40,6 +40,10 @@ dependencies:
   lottie:
   get:
   shimmer:
+  video_player: ^2.9.2
+  chewie:
+  intl:
+  youtube_player_flutter:
 
 dev_dependencies:
   flutter_test:
